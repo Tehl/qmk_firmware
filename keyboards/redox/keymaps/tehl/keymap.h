@@ -4,6 +4,7 @@
 enum layer_names {
     _BASE,
     _GAME,
+    _NRMAN,
     _RAISE,
     _NUMPD,
     _ADMIN,
