@@ -4,7 +4,7 @@
 bool is_default_rgb_state = false;
 
 layer_state_t layer_state_set_rgb(layer_state_t state) {
-    switch (biton32(state)) {
+    switch (get_highest_layer(state)) {
         case _ADMIN:
             rgblight_sethsv_noeeprom_red();
             rgblight_mode_noeeprom(RGBLIGHT_MODE_BREATHING + 2);
