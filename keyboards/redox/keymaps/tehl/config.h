@@ -34,3 +34,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
    Depending on the direction your LEDs are wired (or your lighting preferences),
    you may not need this line. */
 #define RGBLIGHT_LED_MAP { 6, 5, 4, 3, 2, 1, 0, 13, 12, 11, 10, 9, 8, 7 }
+
+/* Old default behavior of mod-taps
+   This allows for rolling keystrokes within the TAPPING_TERM */
+#define HOLD_ON_OTHER_KEY_PRESS
